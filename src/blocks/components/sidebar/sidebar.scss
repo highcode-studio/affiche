@@ -1,0 +1,22 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12%;
+  background: #fff;
+  min-height: 100vh;
+  padding: 85px 20px 25px;
+  text-align: center;
+
+  &-text {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+
+  @media (max-width: 768px) {
+    width: 160px;
+    left: -100%;
+  }
+}

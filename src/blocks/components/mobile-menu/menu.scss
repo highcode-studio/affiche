@@ -62,6 +62,11 @@
     display: block;
     font-weight: 700;
     text-transform: uppercase;
+
+    &:hover {
+      background: #f7f7f7;
+      color: $blue;
+    }
   }
 
   &-active {

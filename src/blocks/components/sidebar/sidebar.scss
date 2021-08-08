@@ -20,3 +20,31 @@
     left: -100%;
   }
 }
+
+.button-left {
+  position: absolute;
+  margin-top: 70px;
+  top: 10px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: #231f20;
+  z-index: 11;
+  transition: .3s;
+
+  .arrow {
+    width: 15px;
+    height: 15px;
+  }
+
+  .transform {
+    transform: rotate(-180deg);
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
+}

@@ -44,6 +44,41 @@
     font-size: 12px;
   }
 
+  &__item {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+    transition: .3s;
+  }
+
+  &-link {
+    padding: 0 2px;
+    line-height: 45px;
+    color: #000;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &-active {
+    background: #f7f7f7;
+    color: $blue;
+  }
+
+  .hidden {
+    opacity: 0;
+    left: -100%;
+  }
+
+  .visible {
+    opacity: 1;
+    left: 0;
+  }
+
   @media (max-width: 768px) {
     display: flex;
   }
